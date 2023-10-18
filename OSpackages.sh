@@ -19,14 +19,12 @@ MINXTRAPKGS=(
       grub2-tools
       grub2-tools-minimal
       grubby
-      jq
       kernel
       kexec-tools
       libnsl
       lvm2
       rng-tools
       unzip
-      wget
    )
 EXCLUDEPKGS=(
       aic94xx-firmware
