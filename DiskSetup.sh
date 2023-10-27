@@ -6,7 +6,7 @@ set -eu -o pipefail
 #################################################################
 PROGNAME=$(basename "$0")
 BOOTDEVSZ="${BOOTDEVSZ:-500m}"
-BOOTLABEL="#{BOOTLABEL:-/boot}"
+BOOTLABEL="${BOOTLABEL:-/boot}"
 CHROOTDEV="${CHROOTDEV:-UNDEF}"
 DEBUG="${DEBUG:-UNDEF}"
 FSTYPE="${FSTYPE:-xfs}"
